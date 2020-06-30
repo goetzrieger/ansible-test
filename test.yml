@@ -1,0 +1,5 @@
+---
+- hosts: all
+
+  tasks:
+   - debug: msg="play_hosts={{play_hosts}}"
